@@ -14,8 +14,8 @@ console.log(iWantToGoHome)
 const a: number = 5
 const b: number = 10
 
-console.log(a===b)
+console.log(a === b)
 
-console.log(a>b)
+console.log(a > b)
 
-console.log(a<=b)
+console.log(a <= b)
