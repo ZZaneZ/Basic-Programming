@@ -70,33 +70,20 @@ st(17, 69999, 499999)
 
 
 
-function h(height: number) {
-    console.log(height)
-}
+function bmi(height: number, weight: number) { 
+    let score: number = weight / (height * height)
 
-h1((200))
-
-function w(weight: number) {
-    console.log(weight)
-}
-console
-
-let height2: number = (height: number * height: number)
-
-let bmi: number = (weight: number * height: number)
-
-function calculate(weight: number * height: number) { // ฟังชั่น grade เก็บข้อมูลตัวเลข 3 ตัว
-    let score: number = homework + midterm + final // กำหนดตัวแปร score ให้เก็บข้อมูลตัวเลข 3 ตัว
-
-    if(score < 50) { 
-        return 'grade F' 
-    } else if (score < 60) { 
-        return 'grade D' 
-    } else if (score < 70) { 
-        return 'grade C' 
-    } else if (score < 80) { 
-        return 'grade B' 
+    if(score < 18.50) { 
+        return 'น้ำหนักน้อย' 
+    } else if (score < 22.90) { 
+        return 'ปกติ' 
+    } else if (score < 24.90) { 
+        return 'ท้วม' 
+    } else if (score < 29.90) { 
+        return 'อ้วน' 
     } else { 
-        return 'grade A' 
+        return 'อ้วนมาก' 
     }
 }
+
+console.log(bmi(1.7, 90)) // การบ้าน (เทสแล้วผ่านทุกเงื่อนไข)
