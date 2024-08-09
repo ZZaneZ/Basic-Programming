@@ -1,4 +1,4 @@
-const fName: string = "นายภูวนาถ ไชยวิเศษ"
+const fName: string = 'นายภูวนาถ ไชยวิเศษ'
 
 console.log(fName.slice(fName.indexOf('ไชยวิเศษ'), fName.indexOf('ไชยวิเศษ') + 'ไชยวิเศษ'.length ))
 
@@ -10,15 +10,15 @@ console.log(fName.split(" "))
 
 
 
-const fName: string = "test message test"
+const fName: string = 'test message test'
 
-console.log(fName.replace("test", "null"))
+console.log(fName.replace('test', 'null'))
 
 
 
-const fName: string = "test message test"
+const fName: string = 'test message test'
 
-console.log(fName.replaceAll("test", "null"))
+console.log(fName.replaceAll('test', 'null'))
 
 
 
