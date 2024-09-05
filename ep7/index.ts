@@ -66,21 +66,3 @@ console.log(fnameArray)
 
 fnameArray.reverse()
 console.log(fnameArray)
-
-
-
-const me = {
-    firstName : 'Test',
-    lastName : 'Test',
-    nickName : 'Zane',
-    age : 20,
-    phoneNumber : 191,
-}
-
-// ประวัติส่วนตัว
-
-// ชื่อ : Test 
-// นามสกุล : Test
-// ชื่อเล่น : Zane
-// อายุ : 20
-// เบอร์ : 191
