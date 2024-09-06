@@ -65,4 +65,4 @@ fnameArray.sort()
 console.log(fnameArray)
 
 fnameArray.reverse()
-console.log(fnameArray)
+console.log(fnameArray) 
