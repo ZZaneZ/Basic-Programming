@@ -30,7 +30,7 @@ register('test@gmail.com', 'kad46a')
 // 6 --> *
 // 0 --> ^ 
 
-const database2 = [
+const database3 = [
     {
         email : 'user@gmail.com',
         password : 'loveYou3000',
